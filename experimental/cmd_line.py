@@ -71,7 +71,7 @@ details"
     def do_EOF(self, args):
         """ exit the program """
         print("Exiting the program...")
-        return False
+        return True
 
 
 if __name__ == '__main__':
