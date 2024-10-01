@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Home"
+    return "Woza Woza bitches!!"
 
 @app.route("/get-user/<user_id>")
 def get_user(user_id):
